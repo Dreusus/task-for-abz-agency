@@ -17,7 +17,6 @@ const Get = () => {
   const [users, setUsers] = useState([]);
   const [page, setPage] = useState(1);
   const [isSeeMore, setIsSeeMore] = useState(false);
-
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
