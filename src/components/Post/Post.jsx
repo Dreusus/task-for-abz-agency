@@ -46,14 +46,14 @@ const Post = () => {
 
   useEffect(() => {
     !name ||
-    !email ||
-    !phone ||
-    !radio ||
-    !file ||
-    errors.name ||
-    errors.email ||
-    errors.phone ||
-    errors.file
+      !email ||
+      !phone ||
+      !radio ||
+      !file ||
+      errors.name ||
+      errors.email ||
+      errors.phone ||
+      errors.file
       ? setButtonStatus(true)
       : setButtonStatus(false);
   }, [

@@ -1,5 +1,8 @@
 import Header from './Header/Header';
-
+import Hero from './Hero/Hero';
+import Get from './Get/Get';
+import Post from './Post/Post';
+import '../App.scss';
 
 export const App = () => {
   return (
@@ -12,6 +15,9 @@ export const App = () => {
       }}
     >
       <Header />
+      <Hero />
+      <Get />
+      <Post />
     </div>
   );
 };
